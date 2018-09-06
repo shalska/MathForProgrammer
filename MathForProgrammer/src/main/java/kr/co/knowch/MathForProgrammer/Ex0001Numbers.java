@@ -1,5 +1,3 @@
-package kr.co.knowch.MathForProgrammer;
-
 /**
  * 프로그래머를 위한 기초수학 - 0001 수의 체계
  * 
@@ -10,19 +8,22 @@ package kr.co.knowch.MathForProgrammer;
  * 2018/08/27
  */
 
+package kr.co.knowch.MathForProgrammer;
+
+
 public class Ex0001Numbers {
     public static void main(String[] args) {
-    	byte a = 0;
+    	/*byte a = 0;
     	short b = 0;
     	int c = 0;
     	long d = 0L;
     	float e = 1.12f;
     	double f = 2.12;
     	
-    	getMinMax();
+    	getMinMax();*/
     	
-    	Complex z1 = new Complex(1, 2);
-    	Complex z2 = new Complex(3, -4);
+    	Complex z1 = new Complex(1, 2);			// 1 + 2i
+    	Complex z2 = new Complex(3, -4);		// 3 - 4i
     	
     	System.out.println(z1.add(z2).toString());
     	System.out.println(z1.multifly(z2).toString());
